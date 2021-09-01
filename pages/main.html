@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Word Checker</title>
+</head>
+<body>
+    <h1>Word Counter by Mooshu</h1>
+ <div class="popup">
+
+        <textarea class="text" id="text" rows="6" placeholder="Type text or Paste" onkeyup="countWord()" onpaste="countWord()"></textarea>
+
+    <div class="holder">
+
+        <div class="counting">
+             Words:    <span id="wordCount">  0</span>
+        </div>
+
+        <div class="clear">
+            <button class="btn" id="clear">Clear</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
